@@ -1,0 +1,62 @@
+
+// Fonts
+
+
+// Variables
+@import "variables";
+@import "grayscale";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.matches .card-deck {
+  margin-bottom: 30px;
+}
+
+.booklist-container {
+  margin-bottom: 30px;
+
+  .found-books {
+    li {
+      cursor: copy;
+    }
+  }
+
+  .list-group-item {
+
+    .book-delete {
+      display: none;
+      color: #F9ACAA;
+      cursor: pointer;
+      position: absolute;
+      right: 5px;
+      top: 13px;
+    }
+
+    &:hover {
+      .book-delete {
+        display: block;
+      }
+    }
+
+  }
+}
+
+.add-button {
+  font-size: 10px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: blue;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 300px;
+}
+
